@@ -1,0 +1,87 @@
+body{
+    font-weight: 600;
+}
+.maincontainer{
+    margin-top: 8rem;
+}
+@media screen and (max-width: 992px) {
+    .maincontainer{
+        margin-top: 4rem;
+    }
+}
+.HeadingSection{
+    padding-top: 3rem;
+    color: #8c4343;
+}
+.HeadingSection > h1{
+    font-family: monospace;
+}
+@media screen and (min-width: 992px) {
+    .HeadingSection{
+        padding-top: 2rem;
+    }
+}
+.PaddingContainer{
+    padding-inline: 0rem;
+}
+@media screen and (min-width: 992px) {
+    .PaddingContainer{
+        padding-inline: 10rem;
+    }
+}
+th[scope='col']{
+    font-size: 0.8rem;
+}
+select, input, .cancel{
+    height: 3rem;
+    padding-left: 0.4rem;
+}
+select{
+    color: rgb(145, 145, 170) !important;
+    font-weight: 600 !important;
+    font-family: serif !important;
+}
+option{
+    color: rgb(145, 145, 170);
+    font-weight: 550;
+    font-family: serif;
+}
+.cancel{
+    line-height: 3rem;
+    color: rgb(78, 33, 33);
+}
+.cancel:hover{
+    color: rgb(88, 100, 16);
+}
+.add, .clear{
+    color: rgb(145, 145, 170);
+    font-weight: 600;
+}
+.add:hover{
+    color: rgb(42, 42, 155);
+}
+.clear:hover{
+    color: rgb(216, 20, 20);
+}
+.HeadingDescription{
+    font-family: monospace;
+    color: #8c4343;
+}
+
+#map{
+    height: 80vh;
+}
+
+.leaflet-searchbox.leaflet-searchbox-left{
+    height: 40px;
+}
+
+@media screen and (max-width: 992px) {
+    .maplabelCustom{
+        width: 100%;
+    }
+}
+
+.toMapPage{
+    pointer-events: none;
+}
