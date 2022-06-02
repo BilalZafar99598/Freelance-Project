@@ -22,7 +22,8 @@
     $datetime = $_POST['datetime'];
     echo "Today Date is: ".$datetime."<br>";
     $date = date("Y/m/d");
-    for($j=0;$j<=29;++$j)
+    echo $date;
+    for($j=1;$j<=29;++$j)
     {
         echo $lat_data[$j];
         // $sql = "INSERT INTO test(lat_data) VALUES('".$lat_data[$i]."')";
